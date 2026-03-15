@@ -1,0 +1,40 @@
+saffron-ember-kitchen/
+│
+├─ package.json
+├─ next.config.js
+├─ tailwind.config.js
+├─ postcss.config.js
+│
+├─ lib/
+│   └─ db.js
+│
+├─ components/
+│   ├─ Navbar.jsx
+│   ├─ Footer.jsx
+│   ├─ DishCard.jsx
+│   └─ AdminDishForm.jsx
+│
+├─ styles/
+│   └─ globals.css
+│
+├─ public/
+│   └─ uploads/
+│
+├─ app/
+│   ├─ layout.js
+│   ├─ page.js
+│   ├─ menu/page.js
+│   ├─ gallery/page.js
+│   ├─ about/page.js
+│   ├─ contact/page.js
+│   │
+│   ├─ admin/
+│   │   ├─ page.js
+│   │   └─ dashboard/page.js
+│   │
+│   └─ api/
+│       ├─ dishes/route.js
+│       ├─ upload/route.js
+│       ├─ delete-dish/route.js
+│       ├─ update-dish/route.js
+│       └─ background/route.js
